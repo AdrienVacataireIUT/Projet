@@ -1,19 +1,20 @@
 # Le Projet
 
-##Préambule
+## Préambule
 Le projet se déroulera sur toute la période par équipe de deux. Tout comme le cours, le projet sera découpé en 4 jalons (voir Readme du repository Cours).
 La notation se fera sur les critères suivants :
 
 <ul>
 <li>Les fonctionnalités implémentées (et leurs bons fonctionnements).</li>
-<li>La qualité du code (commentaires, tests, normes de développement, etc.).</li>
-<li>Le respect des consignes.</li>
-<li>La compilation (pas d’erreur).</li>
+<li>La qualité du code (commentaires, tests, normes de développement, nommage des variables, etc.).</li>
+<li>Le respect des consignes et de l'architecture du projet.</li>
+<li>La compilation (pas d’erreur, le moins de warning possible).</li>
+<li>L'ergonomie des interfaces.</li>
 </ul>
 
 Le projet sera à rendre à la fin de la période avec la base de données.
 
-##Problématique : 
+## Problématique : 
 Monsieur X se lance dans la création d’une entreprise destinée à vendre et à livrer des denrées alimentaires (produits frais) aux restaurateurs locaux. Son objectif est de proposer à ces clients potentiels des produits frais achetés chez les producteurs locaux avec lesquels il est en contact. Afin de vendre ses produits frais dans les meilleures conditions, il  souhaiterait mettre en place un système complet pour démarrer son entreprise avec les éléments suivants :
 <ul>
 <li>Une base de données permettant de stocker tous ses produits, ses commandes, ses clients, etc.</li>
@@ -22,7 +23,7 @@ Monsieur X se lance dans la création d’une entreprise destinée à vendre et 
 <li>Un service web pour « communiquer » avec les personnes en charge des livraisons qui sont équipées d’un PDA. Ce service connecté à la base permettra à Monsieur X de suivre le livreur et de déterminer les commandes livrées et à livrer.</li>
 </ul>
 
-##Solution envisagée :
+## Solution envisagée :
 
 Afin de répondre à tous les besoins de Monsieur X en utilisant exclusivement des technologies Microsoft, voici la solution à mettre en place :
 <ul>
@@ -34,18 +35,17 @@ Afin de répondre à tous les besoins de Monsieur X en utilisant exclusivement d
 <li>Une application Web pour offrir au grand public un portail permettant la commande de produit (J4).</li>
 </ul>
 
-##La base de données :
+## La base de données :
 Afin de faciliter le développement et le déploiement de l’application, la base de données sera volontairement au format « mdf ». Nous ne travaillerons pas sur une base de données hébergée sur un serveur SQL. Cette méthode ne change en rien la méthode de développement et surtout évite l’installation et la configuration d’un serveur SQL. Ce fichier au format mdf sera à rendre avec la solution complète à la fin du TP.
 
-
-##Le schéma de la base de données :
+## Le schéma de la base de données :
 Voici la base de données que Monsieur X a imaginée :
 
 ![alt tag](https://coursdotnetiut.files.wordpress.com/2016/05/bdd.png)
 
 NB : Ce schéma pourra être amené à être complété au fur et à mesure du projet mais représente une base de travail indispensable à réaliser pour la suite du projet.
 
-##L’architecture de la solution :
+## L’architecture de la solution :
 A des fins de maintenance, Monsieur X souhaite que l’ensemble du projet soit stocké dans une seule et unique solution Visual Studio. La solution comprendra donc plusieurs « sous-projets ». Le découpage des sous-projets conseillé est le suivant :
 <ul>
 <li>Un projet de type Bibliothèque pour la couche d’accès aux données.</li>
@@ -55,4 +55,4 @@ A des fins de maintenance, Monsieur X souhaite que l’ensemble du projet soit s
 <li>Autant de projet de type Test Unitaire qu’il y aura de test à réaliser.</li>
 </ul>
 
-D’autres projets peuvent être ajoutés à cette solution pour compléter certains projets (exemple : un projet de type console pour tester la couche d’accès aux données dans un premier temps). La base de données au format présenté précédemment se placera dans le projet de la couche d’accès.
+D’autres projets peuvent être ajoutés à cette solution pour compléter certains projets (exemple : un projet de type console pour tester la couche d’accès aux données dans un premier temps). La base de données au format présenté précédemment se placera dans le projet de la <u>couche d’accès<u>.
