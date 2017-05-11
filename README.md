@@ -43,9 +43,7 @@ Afin de répondre à tous les besoins de Monsieur X en utilisant exclusivement d
 Afin de faciliter le développement et le déploiement de l’application, la base de données sera volontairement au format « mdf ». Nous ne travaillerons pas sur une base de données hébergée sur un serveur SQL. Cette méthode ne change en rien la méthode de développement et surtout évite l’installation et la configuration d’un serveur SQL. Ce fichier au format mdf sera à rendre avec la solution complète à la fin du TP.
 
 ## Le schéma de la base de données :
-Voici la base de données imaginée pour l'occasion :
-
-
+La base de données imaginée pour l'occasion est disponible en annexe.
 NB : Ce schéma pourra être amené à être complété au fur et à mesure du projet mais représente une base de travail indispensable à réaliser pour la suite du projet.
 
 ## L’architecture de la solution :
