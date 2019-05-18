@@ -18,7 +18,6 @@ Le projet sera à rendre à la fin de la période avec la base de données.
 Les éléments à votre disposition :
 <ul>
   <li>L'énoncé avec le schéma de la base de données</li>
-  <li>Le premier jalon d'une durée de 4h</li>
   <li>Le cours</li>
   <li>Les exemples présents dans le "repository" Exemples
 </ul>
