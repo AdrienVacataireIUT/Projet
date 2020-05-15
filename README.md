@@ -1,7 +1,7 @@
 # Le Projet
 
 ## Préambule
-Le projet se déroulera sur toute la période par équipe de deux. Tout comme le cours, le projet sera découpé en 4 jalons (voir Readme du repository Cours).
+Le projet se déroulera sur toute la période. Tout comme le cours, le projet sera découpé en 4 jalons (voir Readme du repository Cours).
 La notation se fera sur les critères suivants :
 
 <ul>
@@ -21,3 +21,7 @@ Les éléments à votre disposition :
   <li>Le cours</li>
   <li>Les exemples présents dans le "repository" Exemples
 </ul>
+
+## Notation
+Une note sera établie après les deux premiers jalons et une note sera établie à la fin du projet.
+Les dates de rendu seront définies ultérieurement en fonction de l'avancement.
