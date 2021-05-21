@@ -23,5 +23,5 @@ Les éléments à votre disposition :
 </ul>
 
 ## Notation
-Une note sera établie après les deux premiers jalons et une note sera établie à la fin du projet.
+Une note sera établie à la fin du projet.
 Les dates de rendu seront définies ultérieurement en fonction de l'avancement.
